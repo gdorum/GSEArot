@@ -1,0 +1,13 @@
+Encoding: UTF-8
+Package: GSEArot
+Type: Package
+Title: GSEA rotation
+Version: 0.9
+Date: 2019-04-24
+Author: Guro Dorum
+Maintainer: Guro Dorum <guro.dorum@gmail.com>
+Description: Functions for performing Gene Set Enrichment Analysis (GSEA) with rotation testing.
+Depends: R (>= 3.0)
+License: GPL
+LazyLoad: yes
+RoxygenNote: 6.1.1
