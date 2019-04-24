@@ -23,5 +23,5 @@ approach for interpreting genome-wide expression pro?les, PNAS, 102,
 ```r
  # First install devtools if needed
 if(!require(devtools)) install.packages("devtools")
-devtools::install_github("gdorum/relMix")
+devtools::install_github("gdorum/GSEArot")
 ```
