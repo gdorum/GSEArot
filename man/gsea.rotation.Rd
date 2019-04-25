@@ -4,7 +4,7 @@
 \alias{gsea.rotation}
 \title{GSEA rotation}
 \usage{
-gsea.rotation(X, y = NULL, S, nrot = 500, fun = t90th)
+gsea.rotation(X, y = NULL, S, nrot = 500, fun = t.90th)
 }
 \arguments{
 \item{X}{Gene expression matrix with samples as rows and genes as columns.}
@@ -19,7 +19,7 @@ gsea.rotation(X, y = NULL, S, nrot = 500, fun = t90th)
 }
 \value{
 \item{p.values }{A p-value for each gene set}
-\item{q.values }{An FDR q-value for each gene set}
+\item{q.values }{A FDR q-value for each gene set}
 }
 \description{
 GSEA with rotation test
@@ -28,7 +28,6 @@ GSEA with rotation test
 Dorum, G., Snipen, L., Solheim, M. and Sabo (2009) Rotation Testing in Gene Set Enrichment
 Analysis for Small Direct Comparison Experiments. \emph{Statistical Applications in Genetics
  and Molecular Biology}, \bold{8}(1), article 34.
- 
 Subramanian, A., Tamayo, P., Mootha, V. K., Mukherjee, S., Ebert, B. L.,
 Gillette, M. A., Paulovich, A., Pomeroy, S. L., Golub, T. R., Lander, E. S.
 and Mesirov, J. P (2005) Gene set enrichment analysis: A knowledge-based
